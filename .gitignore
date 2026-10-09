@@ -1,0 +1,36 @@
+.DS_Store
+._*
+__pycache__/
+*.py[cod]
+.env
+.env.*
+*.log
+*.partial
+# Keep local investigation documents out of the release repository.
+*.md
+!/README.md
+!LICENSE.md
+!COPYING.md
+/vita-native/SOURCE_EVIDENCE.json
+# Local original game / decompilation; do not publish copyrighted assets.
+/Robot Unicorn Attack-V1.03/
+/*.apk
+/analysis/
+/examples/
+/random/
+# Previous experiment is retained locally, but is not the new port.
+/psvita-port/
+/vita-native/data/
+/vita-native/sce_sys/**/*.png
+/vita-native/build*/
+/vita-native/.cache/
+/vita-native/.scratch/
+*.vpk
+*.velf
+*.elf
+*.bin
+*.o
+*.obj
+*.a
+*.psp2dmp
+compile_commands.json
